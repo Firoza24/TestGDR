@@ -4,7 +4,7 @@ name: GDRIGCoreTemplate
 title: "GDR FHIR Implementation Guide Template"
 description: "Mall för GDR FHIR Implementation Guides."
 status: draft
-version: 2.3.0
+version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2024+
 releaseLabel: ci-build
