@@ -1,8 +1,8 @@
-id: inera.core.template
-canonical: https://fhir.inera.se/ig/template
-name: IneraCoreTemplate
-title: "Inera FHIR Implementation Guide Template"
-description: "Mall för Ineras FHIR Implementation Guides."
+id: gdrig.core.template
+canonical: https://pub.regionstockholm.se/fhir/ImplementationGuide/TestGDR
+name: GDRIGCoreTemplate
+title: "GDR FHIR Implementation Guide Template"
+description: "Mall för GDR FHIR Implementation Guides."
 status: draft
 version: 2.3.0
 fhirVersion: 4.0.1
@@ -11,8 +11,12 @@ releaseLabel: ci-build
 license: CC0-1.0
 
 publisher:
-  name: Inera AB
-  url: https://www.inera.se
+  name: Karolinska University Hospital
+  url: https://www.karolinskahospital.com/
+
+dependencies:
+  hl7.fhir.us.core: 9.0.0
+  hl7.fhir.uv.genomics-reporting: 3.0.0
 
 jurisdiction: urn:iso:std:iso:3166#SE "Sweden"
 
